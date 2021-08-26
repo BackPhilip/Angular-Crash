@@ -1,0 +1,31 @@
+<form 
+(ngSubmit)="onSubmit()"
+*ngIf="editTaskItem != undefined"
+class="task">
+    <header>
+        <h1>Edit Task</h1>
+            <app-button 
+                color = "{{ '#560090' }}" 
+                text = "{{ 'Close' }}" 
+                text="Add"
+                (btnClick)="onClose()">
+            </app-button>
+    </header>
+        <div class="form-control">
+            <label for="text">Task</label>
+            <input type="text" name="text" id="text" [(ngModel)]= "text"/>
+        </div>
+        <div class="form-control">
+            <label for="date">Day & Time</label>
+            <input type="date" name="day" id="day" [(ngModel)]= "day"/>
+        </div>
+        <div class="form-control">
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" [(ngModel)]="time" placeholder="Choose Time"/>
+        </div>
+        <div class="form-control form-control-check">
+            <label for="reminder">Set Reminder</label>
+            <input type="checkbox" name="reminder" id="reminder" [(ngModel)]= "reminder"/>
+        </div>
+    <input type="submit" value="Update Task" class="btn btn-block" />
+</form>

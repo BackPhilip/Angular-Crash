@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "Doctors Appointment",
+      "day": "2021-08-10",
+      "time": "12:30",
+      "reminder": false
+    },
+    {
+      "text": "McDonalds",
+      "day": "2021-08-21",
+      "time": "17:27",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "text": "Dinner with the folk",
+      "day": "2021-08-22",
+      "time": "17:31",
+      "reminder": false
+    },
+    {
+      "text": "Braai",
+      "day": "2021-08-13",
+      "time": "02:15",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Register to Vote",
+      "day": "2021-08-23",
+      "time": "18:36",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
